@@ -1,5 +1,12 @@
 # Vaishnav Sreejan - Professional Portfolio Website
 
+> 🌐 **Live Website:** [Vaishnav Sreejan | Aspiring Software Engineer | B.Tech CSE (Data Science)](https://vaishnavsreejan-portfolio.vercel.app/)
+
+[![Live Site](https://img.shields.io/badge/Live_Site-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vaishnavsreejan-portfolio.vercel.app/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
 A premium, modern personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, and **Lucide React**. Engineered specifically to showcase Vaishnav's background as a B.Tech Computer Science and Engineering (Data Science) student, technical skills, production ETL and Big Data systems, internships, certifications, professional memberships, and language proficiencies.
 
 ---
@@ -137,21 +144,13 @@ To enable direct backend submission without opening an email client:
 
 ---
 
-## 🌐 Deployment Instructions
+## 🌐 Deployment
 
-### Deploying to Vercel (Recommended)
-1. Push your code to your GitHub repository: `https://github.com/VaishnavSreejan/portfolio`.
-2. Visit [Vercel](https://vercel.com) and click **"Add New Project"**.
-3. Import your GitHub repository.
-4. Framework Preset will auto-detect as **Vite**.
-5. Click **Deploy**. (The included `vercel.json` ensures full SPA routing and high-performance asset caching).
+- **Live URL:** [https://vaishnavsreejan-portfolio.vercel.app/](https://vaishnavsreejan-portfolio.vercel.app/)
+- **GitHub Repository:** [https://github.com/VaishnavSreejan/Portfolio-](https://github.com/VaishnavSreejan/Portfolio-)
+- **Hosted on:** [Vercel](https://vercel.com) (Automated CI/CD from `main` branch)
 
-### Deploying to Netlify
-1. Log in to [Netlify](https://www.netlify.com) and click **"Add new site" > "Import an existing project"**.
-2. Select your repository.
-3. Build command: `npm run build`
-4. Publish directory: `dist`
-5. Click **Deploy Site**. (The included `netlify.toml` handles redirects and headers).
+The included `vercel.json` provides single-page routing rewrites and high-performance asset caching. Every push to the `main` branch automatically builds and deploys to the live site.
 
 ---
 
